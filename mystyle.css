@@ -5,13 +5,13 @@ header {
     border: 1px black solid;
     height: 100px;
 }
-nav ul {
+nav ul{
     float: left;
     width: 15%;
     background-color: aquamarine;
     border: 1px black solid;
     text-align: left;
-    padding: 5%;
+    padding: 3%;
     height: 120vh;
 }
 li {
@@ -21,9 +21,9 @@ article {
     float: right;
     background-color:azure;
     text-align: center;
-    border: 2px black solid;
+    border: 1px black solid;
     padding: 2%;
-    width: 70%;
+    width: 74%;
     height: 130vh;
 }
 p {
