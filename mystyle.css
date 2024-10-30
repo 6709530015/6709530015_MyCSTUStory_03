@@ -12,10 +12,10 @@ nav ul{
     border: 1px black solid;
     text-align: left;
     padding: 3%;
-    height: 120vh;
+    height: 10vh;
 }
 li {
-    padding: 20px;
+    padding: 10px;
 }
 article {
     float: right;
@@ -50,4 +50,11 @@ h6 {
 #p2 {
     background-color: rgb(227, 103, 144);
     padding: 5%;
+}
+@media screen and (max-width: 800px) {
+    header, nav ul, li, article, footer {
+      width: 100%;
+      text-align: center;
+      overflow: auto;
+    }
 }
